@@ -1,6 +1,6 @@
 # MarkItDown Converter
 
-Convert any file to Markdown directly in Obsidian using \[Microsoft's MarkItDown]\(<https://github.com/microsoft/markitdown>) tool.
+Convert any file to Markdown directly in Obsidian using [Microsoft's MarkItDown](<https://github.com/microsoft/markitdown>) tool.
 
 ## Features
 
