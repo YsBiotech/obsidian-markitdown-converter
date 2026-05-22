@@ -1,6 +1,6 @@
 # MarkItDown Converter
 
-Convert any file to Markdown directly in Obsidian using Microsoft's MarkItDown tool.
+Convert any file to Markdown directly in Obsidian using \[Microsoft's MarkItDown]\(<https://github.com/microsoft/markitdown>) tool.
 
 ## Features
 
@@ -19,7 +19,7 @@ Convert any file to Markdown directly in Obsidian using Microsoft's MarkItDown t
 
 When you first enable the plugin, a setup wizard will appear:
 
-1. Click "Install MarkItDown" 
+1. Click "Install MarkItDown"
 2. If Python is installed, MarkItDown will be installed automatically
 3. If Python is not found, you'll be guided to install it from python.org
 
@@ -49,15 +49,15 @@ Choose how to handle converted content in Settings:
 
 ## Supported Formats
 
-| Category | Formats |
-|----------|---------|
+| Category  | Formats                                              |
+| --------- | ---------------------------------------------------- |
 | Documents | PDF, Word (.docx), PowerPoint (.pptx), Excel (.xlsx) |
-| Web | HTML, Wikipedia pages |
-| Data | CSV, JSON, XML |
-| Images | JPG, PNG, GIF, BMP, WebP (with EXIF metadata) |
-| Audio | MP3, WAV, OGG, M4A (with speech transcription) |
-| Archives | ZIP files (extracts and converts all contents) |
-| Other | Text files, RTF, EPUB, IPython notebooks |
+| Web       | HTML, Wikipedia pages                                |
+| Data      | CSV, JSON, XML                                       |
+| Images    | JPG, PNG, GIF, BMP, WebP (with EXIF metadata)        |
+| Audio     | MP3, WAV, OGG, M4A (with speech transcription)       |
+| Archives  | ZIP files (extracts and converts all contents)       |
+| Other     | Text files, RTF, EPUB, IPython notebooks             |
 
 ## Requirements
 
@@ -67,12 +67,12 @@ Choose how to handle converted content in Settings:
 
 ## Settings
 
-| Setting | Description | Default |
-|---------|-------------|---------|
-| Python path | Path to Python executable | `python` |
-| Output mode | How to handle converted content | Create new note |
-| New note prefix | Prefix for generated notes | `Converted` |
-| Show notifications | Display conversion notifications | Yes |
+| Setting            | Description                      | Default         |
+| ------------------ | -------------------------------- | --------------- |
+| Python path        | Path to Python executable        | `python`        |
+| Output mode        | How to handle converted content  | Create new note |
+| New note prefix    | Prefix for generated notes       | `Converted`     |
+| Show notifications | Display conversion notifications | Yes             |
 
 ## Troubleshooting
 
@@ -111,3 +111,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 - [MarkItDown](https://github.com/microsoft/markitdown) by Microsoft - The core conversion engine
 - [Obsidian](https://obsidian.md/) - The amazing note-taking app
+
