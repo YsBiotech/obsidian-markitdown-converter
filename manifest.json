@@ -1,0 +1,10 @@
+{
+  "id": "markitdown-converter",
+  "name": "MarkItDown Converter",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Convert any file to Markdown using Microsoft's MarkItDown. One-click setup, supports PDF, Word, Excel, images, audio and more.",
+  "author": "Your Name",
+  "authorUrl": "",
+  "isDesktopOnly": true
+}
